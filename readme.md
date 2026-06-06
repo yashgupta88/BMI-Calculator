@@ -1,0 +1,1 @@
+This is a basic HTML , CSS , JS project to create a web page which calculates BMI as per given height and weight
