@@ -36,3 +36,14 @@ form.addEventListener('submit',(e)=>{
         result.innerHTML=`<span> Your BMI is ${BMI}  ${res}</span>`
     }
 })
+
+const clock=document.getElementById('clock');
+
+function updatetime(){
+    const now=new Date();
+    const time=now.toLocaleTimeString();
+
+    clock.innerText=time;
+}
+// updatetime();
+setInterval(updatetime,1000); // repeated after 1000 ms
